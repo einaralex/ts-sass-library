@@ -1,6 +1,6 @@
 {
   "name": "ts-sass-library",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Typescript Sass component library",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -11,7 +11,9 @@
     "url": "https://labs.icelandair.com"
   },
   "scripts": {
-    "build": "yarn build:dist && yarn webpack"
+    "prepublish": "yarn build",
+    "build": "yarn clean && yarn webpack",
+    "clean": "rm -rf dist"
   },
   "license": "MIT",
   "devDependencies": {
