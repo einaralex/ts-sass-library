@@ -11,4 +11,7 @@
 
 `import 'ts-sass-library/dist/index.css'`
 
+### OR in the global config which is imported in _app.tsx
+`@import ~ts-sass-library/dist/index.css`
+
 
