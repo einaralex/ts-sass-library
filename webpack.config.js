@@ -14,6 +14,11 @@ module.exports = {
   },
   resolve: {
     extensions: [".js", ".jsx", ".json", ".ts", ".tsx"],
+    alias: {
+      // Provides ability to include node_modules with ~
+      "~": path.resolve(process.cwd(), "src"),
+      styles: path.resolve(__dirname, "./src/styles"),
+    },
   },
   module: {
     rules: [

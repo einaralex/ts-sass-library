@@ -17,6 +17,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@icelandair/styles": "^1.2.6",
     "@types/classnames": "^2.2.7",
     "@types/react": "^17.0.20",
     "autoprefixer": "^10.3.4",

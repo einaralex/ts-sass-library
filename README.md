@@ -1,3 +1,5 @@
+## Install
+
 `yarn add ts-sass-library`
 
 # Usage with Next.js
@@ -8,3 +10,5 @@
 ## In _app.tsx
 
 `import 'ts-sass-library/dist/index.css'`
+
+
